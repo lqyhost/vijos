@@ -1,0 +1,3 @@
+/Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles/Vijos.dir
