@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qianyongliu/code/MP/Vijos
+CMAKE_SOURCE_DIR = /Users/qianyongliu/code/git/vijos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qianyongliu/code/MP/Vijos/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/qianyongliu/code/git/vijos/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles /Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles /Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Vijos/fast:
 	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/build
 .PHONY : Vijos/fast
 
-test/test.o: test/test.cpp.o
+1449/main.o: 1449/main.cpp.o
 
-.PHONY : test/test.o
+.PHONY : 1449/main.o
 
 # target to build an object file
-test/test.cpp.o:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.o
-.PHONY : test/test.cpp.o
+1449/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.o
+.PHONY : 1449/main.cpp.o
 
-test/test.i: test/test.cpp.i
+1449/main.i: 1449/main.cpp.i
 
-.PHONY : test/test.i
+.PHONY : 1449/main.i
 
 # target to preprocess a source file
-test/test.cpp.i:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.i
-.PHONY : test/test.cpp.i
+1449/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.i
+.PHONY : 1449/main.cpp.i
 
-test/test.s: test/test.cpp.s
+1449/main.s: 1449/main.cpp.s
 
-.PHONY : test/test.s
+.PHONY : 1449/main.s
 
 # target to generate assembly for a file
-test/test.cpp.s:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.s
-.PHONY : test/test.cpp.s
+1449/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.s
+.PHONY : 1449/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Vijos"
-	@echo "... test/test.o"
-	@echo "... test/test.i"
-	@echo "... test/test.s"
+	@echo "... 1449/main.o"
+	@echo "... 1449/main.i"
+	@echo "... 1449/main.s"
 .PHONY : help
 
 

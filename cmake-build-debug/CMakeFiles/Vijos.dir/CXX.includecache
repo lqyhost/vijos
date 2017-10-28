@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/qianyongliu/code/MP/Vijos/test/test.cpp
+/Users/qianyongliu/code/git/vijos/1449/main.cpp
 iostream
+-
+string
 -
 
