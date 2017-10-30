@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Vijos.dir/test/test.cpp.o"
+  "CMakeFiles/Vijos.dir/1449/main.cpp.o"
+  "CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o"
   "Vijos.pdb"
   "Vijos"
 )

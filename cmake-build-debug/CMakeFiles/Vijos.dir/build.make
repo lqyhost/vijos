@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qianyongliu/code/MP/Vijos
+CMAKE_SOURCE_DIR = /Users/qianyongliu/code/git/vijos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qianyongliu/code/MP/Vijos/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/qianyongliu/code/git/vijos/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Vijos.dir/depend.make
@@ -57,41 +57,67 @@ include CMakeFiles/Vijos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Vijos.dir/flags.make
 
-CMakeFiles/Vijos.dir/test/test.cpp.o: CMakeFiles/Vijos.dir/flags.make
-CMakeFiles/Vijos.dir/test/test.cpp.o: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vijos.dir/test/test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vijos.dir/test/test.cpp.o -c /Users/qianyongliu/code/MP/Vijos/test/test.cpp
+CMakeFiles/Vijos.dir/1449/main.cpp.o: CMakeFiles/Vijos.dir/flags.make
+CMakeFiles/Vijos.dir/1449/main.cpp.o: ../1449/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vijos.dir/1449/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vijos.dir/1449/main.cpp.o -c /Users/qianyongliu/code/git/vijos/1449/main.cpp
 
-CMakeFiles/Vijos.dir/test/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Vijos.dir/test/test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qianyongliu/code/MP/Vijos/test/test.cpp > CMakeFiles/Vijos.dir/test/test.cpp.i
+CMakeFiles/Vijos.dir/1449/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Vijos.dir/1449/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qianyongliu/code/git/vijos/1449/main.cpp > CMakeFiles/Vijos.dir/1449/main.cpp.i
 
-CMakeFiles/Vijos.dir/test/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Vijos.dir/test/test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qianyongliu/code/MP/Vijos/test/test.cpp -o CMakeFiles/Vijos.dir/test/test.cpp.s
+CMakeFiles/Vijos.dir/1449/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Vijos.dir/1449/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qianyongliu/code/git/vijos/1449/main.cpp -o CMakeFiles/Vijos.dir/1449/main.cpp.s
 
-CMakeFiles/Vijos.dir/test/test.cpp.o.requires:
+CMakeFiles/Vijos.dir/1449/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/Vijos.dir/test/test.cpp.o.requires
+.PHONY : CMakeFiles/Vijos.dir/1449/main.cpp.o.requires
 
-CMakeFiles/Vijos.dir/test/test.cpp.o.provides: CMakeFiles/Vijos.dir/test/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.o.provides.build
-.PHONY : CMakeFiles/Vijos.dir/test/test.cpp.o.provides
+CMakeFiles/Vijos.dir/1449/main.cpp.o.provides: CMakeFiles/Vijos.dir/1449/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Vijos.dir/1449/main.cpp.o.provides
 
-CMakeFiles/Vijos.dir/test/test.cpp.o.provides.build: CMakeFiles/Vijos.dir/test/test.cpp.o
+CMakeFiles/Vijos.dir/1449/main.cpp.o.provides.build: CMakeFiles/Vijos.dir/1449/main.cpp.o
+
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o: CMakeFiles/Vijos.dir/flags.make
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o: ../1484/main.cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o -c /Users/qianyongliu/code/git/vijos/1484/main.cpp.cpp
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Vijos.dir/1484/main.cpp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qianyongliu/code/git/vijos/1484/main.cpp.cpp > CMakeFiles/Vijos.dir/1484/main.cpp.cpp.i
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Vijos.dir/1484/main.cpp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qianyongliu/code/git/vijos/1484/main.cpp.cpp -o CMakeFiles/Vijos.dir/1484/main.cpp.cpp.s
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.requires:
+
+.PHONY : CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.requires
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.provides: CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.provides.build
+.PHONY : CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.provides
+
+CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.provides.build: CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o
 
 
 # Object files for target Vijos
 Vijos_OBJECTS = \
-"CMakeFiles/Vijos.dir/test/test.cpp.o"
+"CMakeFiles/Vijos.dir/1449/main.cpp.o" \
+"CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o"
 
 # External object files for target Vijos
 Vijos_EXTERNAL_OBJECTS =
 
-Vijos: CMakeFiles/Vijos.dir/test/test.cpp.o
+Vijos: CMakeFiles/Vijos.dir/1449/main.cpp.o
+Vijos: CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o
 Vijos: CMakeFiles/Vijos.dir/build.make
 Vijos: CMakeFiles/Vijos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Vijos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Vijos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Vijos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/Vijos.dir/build: Vijos
 
 .PHONY : CMakeFiles/Vijos.dir/build
 
-CMakeFiles/Vijos.dir/requires: CMakeFiles/Vijos.dir/test/test.cpp.o.requires
+CMakeFiles/Vijos.dir/requires: CMakeFiles/Vijos.dir/1449/main.cpp.o.requires
+CMakeFiles/Vijos.dir/requires: CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o.requires
 
 .PHONY : CMakeFiles/Vijos.dir/requires
 
@@ -108,6 +135,6 @@ CMakeFiles/Vijos.dir/clean:
 .PHONY : CMakeFiles/Vijos.dir/clean
 
 CMakeFiles/Vijos.dir/depend:
-	cd /Users/qianyongliu/code/MP/Vijos/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qianyongliu/code/MP/Vijos /Users/qianyongliu/code/MP/Vijos /Users/qianyongliu/code/MP/Vijos/cmake-build-debug /Users/qianyongliu/code/MP/Vijos/cmake-build-debug /Users/qianyongliu/code/MP/Vijos/cmake-build-debug/CMakeFiles/Vijos.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qianyongliu/code/git/vijos/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qianyongliu/code/git/vijos /Users/qianyongliu/code/git/vijos /Users/qianyongliu/code/git/vijos/cmake-build-debug /Users/qianyongliu/code/git/vijos/cmake-build-debug /Users/qianyongliu/code/git/vijos/cmake-build-debug/CMakeFiles/Vijos.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Vijos.dir/depend
 
