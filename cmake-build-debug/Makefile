@@ -123,59 +123,32 @@ Vijos/fast:
 	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/build
 .PHONY : Vijos/fast
 
-1449/main.o: 1449/main.cpp.o
+test/test.o: test/test.cpp.o
 
-.PHONY : 1449/main.o
-
-# target to build an object file
-1449/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.o
-.PHONY : 1449/main.cpp.o
-
-1449/main.i: 1449/main.cpp.i
-
-.PHONY : 1449/main.i
-
-# target to preprocess a source file
-1449/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.i
-.PHONY : 1449/main.cpp.i
-
-1449/main.s: 1449/main.cpp.s
-
-.PHONY : 1449/main.s
-
-# target to generate assembly for a file
-1449/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1449/main.cpp.s
-.PHONY : 1449/main.cpp.s
-
-1484/main.cpp.o: 1484/main.cpp.cpp.o
-
-.PHONY : 1484/main.cpp.o
+.PHONY : test/test.o
 
 # target to build an object file
-1484/main.cpp.cpp.o:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1484/main.cpp.cpp.o
-.PHONY : 1484/main.cpp.cpp.o
+test/test.cpp.o:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.o
+.PHONY : test/test.cpp.o
 
-1484/main.cpp.i: 1484/main.cpp.cpp.i
+test/test.i: test/test.cpp.i
 
-.PHONY : 1484/main.cpp.i
+.PHONY : test/test.i
 
 # target to preprocess a source file
-1484/main.cpp.cpp.i:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1484/main.cpp.cpp.i
-.PHONY : 1484/main.cpp.cpp.i
+test/test.cpp.i:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.i
+.PHONY : test/test.cpp.i
 
-1484/main.cpp.s: 1484/main.cpp.cpp.s
+test/test.s: test/test.cpp.s
 
-.PHONY : 1484/main.cpp.s
+.PHONY : test/test.s
 
 # target to generate assembly for a file
-1484/main.cpp.cpp.s:
-	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/1484/main.cpp.cpp.s
-.PHONY : 1484/main.cpp.cpp.s
+test/test.cpp.s:
+	$(MAKE) -f CMakeFiles/Vijos.dir/build.make CMakeFiles/Vijos.dir/test/test.cpp.s
+.PHONY : test/test.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Vijos"
-	@echo "... 1449/main.o"
-	@echo "... 1449/main.i"
-	@echo "... 1449/main.s"
-	@echo "... 1484/main.cpp.o"
-	@echo "... 1484/main.cpp.i"
-	@echo "... 1484/main.cpp.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 

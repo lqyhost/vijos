@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/qianyongliu/code/git/vijos/1449/main.cpp">
-			<Option target="Vijos"/>
-		</Unit>
-		<Unit filename="/Users/qianyongliu/code/git/vijos/1484/main.cpp.cpp">
+		<Unit filename="/Users/qianyongliu/code/git/vijos/test/test.cpp">
 			<Option target="Vijos"/>
 		</Unit>
 		<Unit filename="/Users/qianyongliu/code/git/vijos/CMakeLists.txt">

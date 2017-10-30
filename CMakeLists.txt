@@ -3,6 +3,7 @@ project(Vijos)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES 1449/main.cpp 1484/main.cpp.cpp)
+#set(SOURCE_FILES 1484/main.cpp)
+set(SOURCE_FILES test/test.cpp)
 
 add_executable(Vijos ${SOURCE_FILES})
